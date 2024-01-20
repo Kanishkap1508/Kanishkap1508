@@ -3,6 +3,30 @@
 
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=800&size=30&duration=3000&pause=1000&color=249216&random=false&width=700&lines=Hi+%F0%9F%91%8B%2C+I'm+Kanishka+Pathik;A+passionate+frontend+Web-developer+%F0%9F%98%84" alt="Typing SVG" /></a>
 
+```javascript
+import React, { useState } from 'react';
+import { View, Text } from 'react-native';
+
+const Profile = () => {
+  const [profileData, setProfileData] = useState({
+    name: "Kanishka Pathik",
+    username: "Kanishkap1508",
+    leetcode: "leetcode.com/leetcode.com/kanishka_pathik/",
+    linkedin: "linkedin.com/in/kanishka-pathik-183528243/",
+    github: "github.com/SajalSatsangi"
+  });
+
+  return (
+    <View>
+      <Text>{profileData.name}</Text>
+    </View>
+  );
+}
+
+export default Profile;
+
+```
+
 - 🔭 I’m currently working on **DSA and Android Development.**
 
 - 🌱 I’m currently learning **React-Native and C++.**
